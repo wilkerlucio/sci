@@ -919,9 +919,9 @@
    'filterv (copy-core-var filterv)
    'find (copy-core-var find)
    'frequencies (copy-core-var frequencies)
+   'force (copy-core-var force)
    'float (copy-core-var float)
    'fn? (copy-core-var fn?)
-   'force (copy-core-var force)
    'get (copy-core-var get)
    'get-thread-binding-frame-impl vars/get-thread-binding-frame
    #?@(:clj ['get-thread-bindings (copy-var vars/get-thread-bindings clojure-core-ns)])
